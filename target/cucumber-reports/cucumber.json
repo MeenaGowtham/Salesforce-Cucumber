@@ -1,0 +1,826 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-15T06:19:21.225Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with valid username and no password",
+        "description": "",
+        "id": "login-to-the-salesforce-application;login-with-valid-username-and-no-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 535000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters value into textbox \"username\" \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"abc\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks \"login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 641000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate text \"MissingPasswordMessage\" \"Please enter your password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MissingPasswordMessage\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Please enter your password.\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-15T06:19:29.257Z",
+        "before": [
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with valid username and password",
+        "description": "",
+        "id": "login-to-the-salesforce-application;login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters value into textbox \"username\" \"meego@tekarch.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"meego@tekarch.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters value into textbox \"password\" \"Scooby18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Scooby18\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3032000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks \"login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on \"HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomePage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4254000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "validate pagetitle \"Home Page ~ Salesforce - Developer Edition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home Page ~ Salesforce - Developer Edition\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_pagetitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-15T06:19:37.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with invalid username and invalid password",
+        "description": "",
+        "id": "login-to-the-salesforce-application;login-with-invalid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clears the input field \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clears_the_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters value into textbox \"username\" \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"abc\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters value into textbox \"password\" \"Sco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Sco\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1233000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks \"login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "validate text \"InvalidCredentialsErrorMessage\" \"Please check your username and password. If you still can\u0027t log in, contact your Salesforce administrator.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"InvalidCredentialsErrorMessage\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Please check your username and password. If you still can\u0027t log in, contact your Salesforce administrator.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-15T06:19:40.287Z",
+        "before": [
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login with valid credentials and check remember me",
+        "description": "",
+        "id": "login-to-the-salesforce-application;login-with-valid-credentials-and-check-remember-me",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters value into textbox \"username\" \"meego@tekarch.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"meego@tekarch.com\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters value into textbox \"password\" \"Scooby18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Scooby18\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks \"rememberMe\" CheckBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rememberMe\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_check_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2194000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks \"login\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on \"HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HomePage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1751000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "validate pagetitle \"Home Page ~ Salesforce - Developer Edition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home Page ~ Salesforce - Developer Edition\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_pagetitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User clicks \"userMenuDropDown\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userMenuDropDown\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_link(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1693000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User clicks \"logout\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"logout\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1285000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "validate pagetitle \"Login | Salesforce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login | Salesforce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_pagetitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "validate text \"savedUsername\" \"meego@tekarch.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"savedUsername\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"meego@tekarch.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-15T06:19:48.912Z",
+        "before": [
+          {
+            "result": {
+              "duration": 520000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify forgot password functionality",
+        "description": "",
+        "id": "login-to-the-salesforce-application;verify-forgot-password-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is on \"LoginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LoginPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User clicks \"forgotPassword\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"forgotPassword\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_link(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User is on \"ForgotPasswordPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ForgotPasswordPage\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_is_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "validate pagetitle \"Forgot Your Password | Salesforce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Forgot Your Password | Salesforce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_pagetitle(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters value into textbox \"forgotPasswordUsernameField\" \"meego@tekarch.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"forgotPasswordUsernameField\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"meego@tekarch.com\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_enters_value_into_textbox(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User clicks \"continue\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"continue\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "validate text \"forgotPasswordPageHeader\" \"Check Your Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"forgotPasswordPageHeader\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Check Your Email\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.training.steps.CommonSteps.validate_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@testcase1"
+          }
+        ]
+      }
+    ],
+    "name": "Login to the salesforce application",
+    "description": "",
+    "id": "login-to-the-salesforce-application",
+    "keyword": "Feature",
+    "uri": "file:resources/features/SalesforceGeneric.feature",
+    "tags": []
+  }
+]
